@@ -26,15 +26,16 @@ a,
 }
 
 .btn-primary {
-    background-color: #68c3a3;
-    border-color: #68c3a3;
+    background-color: #cebc89;
+    border-color: #cebc89;
+		margin-top: 10px;
 }
 
 .btn-primary:active,
 .btn-primary:focus,
 .btn-primary:hover {
-    background-color: #4eb28f;
-    border-color: #4eb28f;
+    background-color: #cebc89;
+    border-color: #cebc89;
 }
 
 
@@ -45,7 +46,8 @@ a,
 
 .header-wrapper {
 	position: relative;
-	background: url(./I AM X- Responsive Personal Portfolio vCard Template_files/background_img.jpg) no-repeat fixed;
+	background: url(background_img.jpg) no-repeat fixed;
+	/*background: linear-gradient(to bottom, #00698F, white);*/
 	background-size: cover;
 	min-height: 400px;
 }
@@ -80,7 +82,7 @@ a,
 	margin-bottom: 40px;
 }
 .feature-box {
-    background: #f1f1f1;
+    background: #e0d4c1;
     padding: 46px 55px;
 }
 .feature-box p{
@@ -101,6 +103,8 @@ a,
     -ms-transition: all 0.4s ease-in-out;
     -o-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
+		width: 700px;
+		height: 350px;
 }
 .demo-thumb a:hover img {
     opacity: 0.5;
@@ -109,7 +113,7 @@ a,
 
 .footer {
     padding: 100px 0;
-    background-color: #222;
+    background: #968963;
 }
 
 .footer h3 {
@@ -117,7 +121,7 @@ a,
     margin: 0;
 }
 .footer a {
-    color: #68c3a3;
+    color: white;
     text-decoration: none;
 }
 .footer a:hover {
